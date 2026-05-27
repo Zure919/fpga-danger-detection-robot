@@ -1,1 +1,3 @@
 # fpga-danger-detection-robot
+This project was worked on an FPGA board (Cyclone IV EP4CE6E22C8L).
+The project's main idea is based on a robot that detects and checks any spot where a bomb could have been planted. I used a finite state machine (FSM) in which I configured 7 states for the movement of my robot (up, down, left, right) and the checking process (which consists of a simple check, clear for no bomb, and danger for one). I successfully made this using an 8x8 LED matrix which holds the robot's position and the spot that needs to be examined for a bomb, 3 buttons as combinations for all 7 types of states, and a 7-segment display for showing on the left what state the robot is in and a bomb counter on the right which counts how many bombs have been found.
